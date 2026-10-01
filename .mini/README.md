@@ -1,16 +1,34 @@
-# React + Vite
+# React Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A small React app for practicing reusable components. The current screen renders a profile card built in `src/components/card.jsx`.
 
-Currently, two official plugins are available:
+## Run Locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+You'll need Node.js and npm installed.
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite prints the local URL in the terminal when the development server starts.
 
-## Expanding the Oxlint configuration
+## Available Commands
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Create a production build in `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Check the project with Oxlint |
+
+## Project Structure
+
+```text
+src/
+	components/  Reusable React components
+	assets/      Images and other imported assets
+	App.jsx      App component and screen composition
+	index.css    Global styles
+	main.jsx     React entry point
+```
