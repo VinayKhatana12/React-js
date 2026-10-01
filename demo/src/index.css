@@ -1,0 +1,86 @@
+*{
+  margin:auto;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'helvetica nueue';
+  color: #fff;
+}
+html,
+body{
+  background-color: #afb8c7;
+  height:100%;
+  width:100%;
+}
+.card{
+  background-color: #df5656;
+  color: #000;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.card2{
+ 
+  color: #000;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 300px;
+  display:flex;
+}
+.nav{
+  background-color: #c01212;
+  color: #000;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.card3{
+  background-color: #bb2626;
+  border-radius: 10px;
+  color: #000;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  text-align:center;
+  margin: 20px 10px;
+  justify-content:center;
+  align-items:center;
+
+}
+.parent{
+  display:flex;
+  padding: 20px;
+  flex-wrap:wrap;
+}
+.card3 button{
+  background-color: #c01212;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+.card3 img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.card h1{
+  font-size: 20px;
+  color: #111;
+}
+.card3 button:hover{
+  background-color: #08053a;
+  color: #fff;
+  cursor:pointer;
+}
